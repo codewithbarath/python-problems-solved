@@ -1,0 +1,22 @@
+'''''''''
+n=int(input("enter n:"))
+for i in range(n,1-1,-1):
+    for j in range(i):
+        print("*",end="")
+    print()
+'''''
+
+
+
+
+
+    
+class pattern:
+    def printTriangle(self, N):
+        for i in range(N,1-1,-1):
+            for j in range(i):
+                print("*",end="")
+            print()
+            
+p1=pattern()
+p1.printTriangle(3)
